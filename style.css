@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&family=Young+Serif&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Outfit;
+    text-align: justify;
+}
+
+body{
+    background-color: rgb(255, 227, 231);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vh;
+    color: rgb(82, 75, 80);
+}
+
+.hero-section{
+    width: 650px;
+    background-color: white;
+    margin: 50px;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+#image{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.title{
+    font-size: 43px;
+    font-family: 'Young Serif', serif;  
+    color: rgb(45, 45, 45);  
+    margin-bottom: 15px;
+}
+
+.preparation-time{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: rgba(255, 239, 242, 0.776);
+}
+
+.header{
+    font-size: 18px;
+    color: rgb(100, 19, 100);
+    margin-bottom: 15px;
+}
+
+li{
+    margin-left: 20px;
+    margin-bottom: 13px;
+    padding-left: 20px;
+}
+
+.bold{
+    color: rgb(71, 65, 69);
+    font-weight: bold;
+}
+
+hr{
+    opacity: 30%;
+    color: black;
+}
+
+.ingredients{
+    margin-bottom: 25px;
+}
+
+.heading{
+    font-size: 30px;
+    font-family: 'Young Serif', serif;  
+    color: rgb(114, 30, 30);
+    margin-bottom: 15px;
+}
+
+.instructions{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.nutrition{
+    margin-top: 30px;
+}
+
+.intro2{
+    margin-bottom: 20px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.value{
+    color: rgb(114, 30, 30);
+    font-weight: bold;
+}
