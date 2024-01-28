@@ -4,7 +4,6 @@
     margin: 0px;
     padding: 0px;
     font-family: Outfit;
-    text-align: justify;
 }
 
 body{
@@ -12,7 +11,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    min-width: 100vh;
+    min-height: 100vh;
     color: rgb(82, 75, 80);
 }
 
@@ -103,4 +102,12 @@ hr{
 .value{
     color: rgb(114, 30, 30);
     font-weight: bold;
+}
+
+@media (max-width: 600px){
+    .hero-section{
+        margin: 0px;
+        border-radius: 0px;
+        padding: 10px;
+    }
 }
