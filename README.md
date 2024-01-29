@@ -1,1 +1,1 @@
-# Recipe Card.
+# Recipe Page.
